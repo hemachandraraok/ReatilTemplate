@@ -1,4 +1,4 @@
-# ReatilTemplate
+# RetailApplication
 
 Instructions to execute
 
