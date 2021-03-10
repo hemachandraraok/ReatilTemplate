@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-10T23:39:02.537Z",
+        "line": 4,
+        "name": "verify order confirmation in order history page",
+        "description": "",
+        "id": "order-tshirt;verify-order-confirmation-in-order-history-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7970427200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3528971000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I sign in",
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.iSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13090215600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I order a tshirt",
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.iOrderATshirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44978700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see my order in order history",
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.iShouldSeeMyOrderInOrderHistory()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@order"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T23:39:27.338Z",
+        "line": 12,
+        "name": "update personal information",
+        "description": "",
+        "id": "order-tshirt;update-personal-information",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8303678500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3340135900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I sign in",
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.iSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3368069200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I update my personal information",
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.iUpdateMyPersonalInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293832200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "my personal information is saved",
+            "match": {
+              "location": "com.test.hemachandrarao.stepdef.orderstepdef.myPersonalInformationIsSaved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@update"
+          }
+        ]
+      }
+    ],
+    "name": "order tshirt",
+    "description": "",
+    "id": "order-tshirt",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OrderTshirt.feature",
+    "tags": []
+  }
+]
