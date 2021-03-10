@@ -80,7 +80,7 @@
                         <goal>generate</goal>
                     </goals>
                     <configuration>
-                        <projectName>vehicle-finder</projectName>
+                        <projectName>Retail</projectName>
                         <outputDirectory>${project.build.directory}</outputDirectory>
                         <cucumberOutput>
                             ${project.build.directory}/cucumber.json
